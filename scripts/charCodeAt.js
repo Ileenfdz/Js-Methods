@@ -5,5 +5,5 @@ export function charCodeAt(){
   for (let i = 0; i < str.length; i++) {
     ascii += str.charCodeAt(i);
   }
-  console.log("Usando .charCodeAt(i) -> " + ascii);
+  console.log("Usando .charCodeAt(i) nos devuelve en forma ascii : " + ascii);
 }

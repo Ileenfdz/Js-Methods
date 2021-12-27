@@ -1,3 +1,4 @@
+//Makes it into the html, being a child element
 export function appendChild(){
     //Parent element
     const myList = document.getElementById("myList");

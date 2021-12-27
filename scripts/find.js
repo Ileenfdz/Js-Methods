@@ -2,5 +2,5 @@
 export function find(){
     const array = [1,4,2,5,3,8,9,25,83];
     let foundNum = array.find(num => num > 5);
-    console.log(foundNum);
+    console.log("Usando find, busca en un array la primera coincidencia : " + foundNum);
 }
