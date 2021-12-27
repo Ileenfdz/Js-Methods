@@ -1,3 +1,4 @@
+import { appendChild } from './appendChild.js';
 import { charAt } from './charAt.js';
 import {charCodeAt} from './charCodeAt.js';
 import {filter} from './filter.js';
@@ -9,5 +10,6 @@ export function app(){
     charAt();
     filter();
     find();
+    appendChild();
 }
 app();
