@@ -3,9 +3,10 @@
 // import {charCodeAt} from './modules/charCodeAt.js';
 // import {filter} from './modules/filter.js';
 // import {find} from './modules/find.js';
-import { splitStr } from './modules/split.js';
+// import { splitStr } from './modules/split.js';
 // import { makeUpperCase } from './modules/toUpperCase.js';
 // import { makeLowerCase } from './modules/toLowerCase.js';
+import { reduce } from './modules/reduce.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -14,8 +15,9 @@ export function app(){
     // filter();
     // find();
     // appendChild();
-    splitStr();
+    // splitStr();
     // makeUpperCase();
-    // makeLowerCase()
+    // makeLowerCase();
+    reduce();
 }
 app();
