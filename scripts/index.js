@@ -4,7 +4,8 @@
 // import {filter} from './modules/filter.js';
 // import {find} from './modules/find.js';
 // import { splitStr } from './modules/split.js';
-import { makeUpperCase } from './modules/toUpperCase.js';
+// import { makeUpperCase } from './modules/toUpperCase.js';
+import { makeLowerCase } from './modules/toLowerCase.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -14,6 +15,7 @@ export function app(){
     // find();
     // appendChild();
     // splitStr();
-    makeUpperCase();
+    // makeUpperCase();
+    makeLowerCase()
 }
 app();
