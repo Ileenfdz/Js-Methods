@@ -9,4 +9,8 @@ export function reduce(){
 
     console.log(array.reduce(reducerSum));
     console.log(array.reduce(reducerRest));
+
+    //for a more cleaner version
+    console.log(array.reduce((a, b) => a + b));
+    console.log(array.reduce((a, b) => a - b));
 }
