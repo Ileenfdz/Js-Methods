@@ -1,17 +1,19 @@
-import { appendChild } from './appendChild.js';
-import { charAt } from './charAt.js';
-import {charCodeAt} from './charCodeAt.js';
-import {filter} from './filter.js';
-import {find} from './find.js';
-import { splitStr } from './split.js';
+// import { appendChild } from './modules/appendChild.js';
+// import { charAt } from './modules/charAt.js';
+// import {charCodeAt} from './modules/charCodeAt.js';
+// import {filter} from './modules/filter.js';
+// import {find} from './modules/find.js';
+// import { splitStr } from './modules/split.js';
+import { makeUpperCase } from './modules/toUpperCase.js';
 
 export function app(){
-    console.log("Connected to app");
-    charCodeAt();
-    charAt();
-    filter();
-    find();
-    appendChild();
-    splitStr();
+    // console.log("Connected to app");
+    // charCodeAt();
+    // charAt();
+    // filter();
+    // find();
+    // appendChild();
+    // splitStr();
+    makeUpperCase();
 }
 app();
