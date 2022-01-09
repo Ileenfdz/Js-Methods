@@ -11,7 +11,9 @@
 // import { replace } from './modules/onlyStr/replace.js';
 // import { indexOf } from './modules/indexOf.js';
 // import { map } from './modules/onlyArrays.js/map.js';
-import { join } from './modules/join.js';
+// import { join } from './modules/join.js';
+// import { call } from './modules/call.js';
+import { forEach } from './modules/forEach.js'
 
 export function app(){
     // console.log("Connected to app");
@@ -28,6 +30,8 @@ export function app(){
     // replace();
     // indexOf();
     // map();
-    join();
+    // join();
+    // call();
+    forEach();
 }
 app();
