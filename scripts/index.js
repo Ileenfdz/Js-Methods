@@ -1,12 +1,13 @@
 // import { appendChild } from './modules/appendChild.js';
-// import { charAt } from './modules/charAt.js';
-// import {charCodeAt} from './modules/charCodeAt.js';
+// import { charAt } from './modules/char/charAt.js';
+// import {charCodeAt} from './modules/char/charCodeAt.js';
 // import {filter} from './modules/filter.js';
 // import {find} from './modules/find.js';
 // import { splitStr } from './modules/split.js';
-// import { makeUpperCase } from './modules/toUpperCase.js';
-// import { makeLowerCase } from './modules/toLowerCase.js';
+// import { makeUpperCase } from './modules/case/toUpperCase.js';
+// import { makeLowerCase } from './modules/case/toLowerCase.js';
 // import { reduce } from './modules/reduce.js';
+import { charCode } from './modules/char/charCode.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -19,5 +20,6 @@ export function app(){
     // makeUpperCase();
     // makeLowerCase();
     // reduce();
+    charCode()
 }
 app();
