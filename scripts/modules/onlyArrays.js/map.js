@@ -1,4 +1,5 @@
 //This method goes through an array and makes another one with it's changes
+//From array to array
 export function map(){
     let array = [1, 2, 3];
     const dogs = [

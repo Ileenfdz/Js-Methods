@@ -1,4 +1,5 @@
 //Gets the index(position) of the thing you´re looking for
+//From anything to number
 export function indexOf(){
     let array = ['a', 'b', 'c'];
     let str = 'The dog was tired';

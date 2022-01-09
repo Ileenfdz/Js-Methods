@@ -1,4 +1,5 @@
 //It converts a string to it's ASCII equivalent in an array
+//From str to str
 export function charCode(){
     //from decimal to text
     console.log(String.fromCharCode(65, 66, 67));// ABC

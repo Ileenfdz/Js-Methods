@@ -8,9 +8,9 @@
 // import { makeLowerCase } from './modules/case/toLowerCase.js';
 // import { reduce } from './modules/reduce.js';
 // import { charCode } from './modules/char/charCode.js';
-// import { replace } from './modules/replace.js';
+// import { replace } from './modules/onlyStr/replace.js';
 // import { indexOf } from './modules/indexOf.js';
-import { map } from './modules/map.js';
+// import { map } from './modules/onlyArrays.js/map.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -26,6 +26,6 @@ export function app(){
     // charCode()
     // replace();
     // indexOf();
-    map();
+    // map();
 }
 app();

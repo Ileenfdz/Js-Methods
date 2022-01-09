@@ -1,4 +1,5 @@
 //Gets the letter at the position you want
+//From str to str
 export function charAt(){
     let str = "Javascript";
     let charAt = str.charAt(0);

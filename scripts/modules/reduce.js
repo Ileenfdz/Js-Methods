@@ -1,4 +1,5 @@
 //This method takes an array at firts and then returns a string that unify it
+//From array to number
 export function reduce(){
     const array = [1, 2, 3]
     //The reducer makes the difference in this method, it determines what it does

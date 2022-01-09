@@ -1,4 +1,5 @@
 //Turns letters into it's ASCII equivalent
+//From str to number
 export function charCodeAt(){
   let str = "Go Team";
   let ascii = 0;
