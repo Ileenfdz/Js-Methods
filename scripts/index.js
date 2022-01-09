@@ -6,7 +6,7 @@
 // import { splitStr } from './modules/split.js';
 // import { makeUpperCase } from './modules/toUpperCase.js';
 // import { makeLowerCase } from './modules/toLowerCase.js';
-import { reduce } from './modules/reduce.js';
+// import { reduce } from './modules/reduce.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -18,6 +18,6 @@ export function app(){
     // splitStr();
     // makeUpperCase();
     // makeLowerCase();
-    reduce();
+    // reduce();
 }
 app();
