@@ -7,7 +7,8 @@
 // import { makeUpperCase } from './modules/case/toUpperCase.js';
 // import { makeLowerCase } from './modules/case/toLowerCase.js';
 // import { reduce } from './modules/reduce.js';
-import { charCode } from './modules/char/charCode.js';
+// import { charCode } from './modules/char/charCode.js';
+import { replace } from './modules/replace.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -20,6 +21,7 @@ export function app(){
     // makeUpperCase();
     // makeLowerCase();
     // reduce();
-    charCode()
+    // charCode()
+    replace();
 }
 app();
