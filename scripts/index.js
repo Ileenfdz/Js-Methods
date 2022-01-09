@@ -8,7 +8,8 @@
 // import { makeLowerCase } from './modules/case/toLowerCase.js';
 // import { reduce } from './modules/reduce.js';
 // import { charCode } from './modules/char/charCode.js';
-import { replace } from './modules/replace.js';
+// import { replace } from './modules/replace.js';
+import { indexOf } from './modules/indexOf.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -22,6 +23,7 @@ export function app(){
     // makeLowerCase();
     // reduce();
     // charCode()
-    replace();
+    // replace();
+    indexOf();
 }
 app();
