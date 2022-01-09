@@ -9,7 +9,8 @@
 // import { reduce } from './modules/reduce.js';
 // import { charCode } from './modules/char/charCode.js';
 // import { replace } from './modules/replace.js';
-import { indexOf } from './modules/indexOf.js';
+// import { indexOf } from './modules/indexOf.js';
+import { map } from './modules/map.js';
 
 export function app(){
     // console.log("Connected to app");
@@ -24,6 +25,7 @@ export function app(){
     // reduce();
     // charCode()
     // replace();
-    indexOf();
+    // indexOf();
+    map();
 }
 app();
